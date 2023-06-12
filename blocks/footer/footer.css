@@ -1,0 +1,6 @@
+.footer {
+  margin: 92px auto 24px auto;
+  width: 1184px;
+  display: grid;
+  grid-template-rows: calc(100% - 186px), 186px;
+}
