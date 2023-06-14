@@ -4,3 +4,9 @@
   height: 740px;
   display: grid;
 }
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 1024px;
+  }
+}

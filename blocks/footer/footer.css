@@ -4,3 +4,9 @@
   display: grid;
   grid-template-rows: calc(100% - 186px), 186px;
 }
+
+@media screen and (max-width: 1024px) {
+  .footer {
+    width: 928px;
+  }
+}

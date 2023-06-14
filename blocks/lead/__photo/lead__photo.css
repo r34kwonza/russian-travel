@@ -3,3 +3,10 @@
   height: 615px;
   background-image: url(../../../images/lead__image.png);
 }
+
+@media screen and (max-width: 1024px) {
+  .lead__photo {
+    width: 928px;
+    height: 580px;
+  }
+}

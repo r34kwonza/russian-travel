@@ -2,4 +2,5 @@
   background-color: #2A2C2F;
   color: #ffffff;
   font-family: Inter;
+  text-rendering: optimizeLegibility;
 }
