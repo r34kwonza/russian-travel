@@ -1,3 +1,6 @@
 .cover {
-
+  margin: 93px auto 0 auto;
+  width: 1184px;
+  height: 740px;
+  display: grid;
 }
