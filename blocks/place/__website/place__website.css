@@ -3,3 +3,10 @@
   grid-row: 2 / 1;
   align-self: self-end;
 }
+
+@media screen and (max-width: 320px) {
+  .place__website {
+    grid-column: 1 / 1;
+    grid-row: 2 / 4;
+  }
+}

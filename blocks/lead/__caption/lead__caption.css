@@ -11,3 +11,18 @@
     width: 928px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .lead__caption {
+    width: calc(768px - 24px);
+    margin-left: 24px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .lead__caption {
+    width: calc(320px - 16px);
+    margin-left: 16px;
+  }
+}
+

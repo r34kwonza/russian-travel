@@ -11,3 +11,21 @@
     width: 440px;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .place__image {
+    height: 340px;
+    width: 340px;
+  }
+}
+
+
+@media screen and (max-width: 320px) {
+  .place__image {
+    grid-column: 1 / 1;
+    grid-row: 3 / 4;
+    height: 320px;
+    width: 320px;
+  }
+}
+
