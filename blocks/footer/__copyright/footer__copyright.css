@@ -8,7 +8,7 @@
   align-self: center;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (max-width: 320px) {
   .footer__copyright {
     line-height: 1;
     grid-column: 1 / 1;
