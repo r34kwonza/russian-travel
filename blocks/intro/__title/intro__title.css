@@ -1,5 +1,6 @@
 .intro__title {
   margin: 0;
+  padding: 0;
   font-weight: 900;
   font-size: 54px;
   line-height: 1.07;
@@ -9,5 +10,6 @@
   .intro__title {
     font-size: 32px;
     line-height: 1.01;
+    width: 288px;
   }
 }

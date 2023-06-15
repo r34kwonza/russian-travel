@@ -2,7 +2,7 @@
   width: 984px;
   height: 615px;
   background-image: url(../../../images/lead__image.png);
-  background-size: cover;
+  background-size: contain;
 }
 
 @media screen and (max-width: 1024px) {
@@ -23,6 +23,5 @@
   .lead__photo {
     width: 320px;
     height: 200px;
-    width: 288px;
   }
 }

@@ -1,11 +1,11 @@
 .place__paragraph {
-  margin: 0;
+  margin: 0 auto;
   padding: 0;
   font-size: 18px;
   line-height: 1.63;
 }
 
-.place__paragraph:nth-child(-n + 4) {
+.place__paragraph:first-child {
   margin-bottom: 24px;
 }
 
@@ -13,5 +13,20 @@
   .place__paragraph {
     font-size: 16px;
     line-height: 1.63;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__paragraph {
+    font-size: 16px;
+    width: 288px;
+  }
+
+  .place__paragraph:first-child {
+    margin-bottom: 25px;
+  }
+
+  .place__paragraph:last-child {
+    margin-bottom: 0;
   }
 }

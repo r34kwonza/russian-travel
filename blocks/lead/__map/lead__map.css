@@ -1,7 +1,8 @@
 .lead__map {
-  margin-top: 90px;
+  margin: 90px auto 0 auto;
   width: 937px;
   height: 263px;
+  justify-self: center;
 }
 
 @media screen and (max-width: 1024px) {

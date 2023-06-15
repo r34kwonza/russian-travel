@@ -13,5 +13,7 @@
     width: 288px;
     font-size: 14px;
     line-height: 1.14;
+    margin: 16px 0 0 0;
+    font-weight: normal;
   }
 }

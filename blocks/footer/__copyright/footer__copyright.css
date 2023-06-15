@@ -7,3 +7,13 @@
   justify-self: end;
   align-self: center;
 }
+
+@media screen and (max-width: 320px) {
+  .footer__copyright {
+    line-height: 1;
+    grid-column: 1 / 1;
+    grid-row: 2 / 2;
+    justify-self: start;
+    margin: 48px 0 0 16px;
+  }
+}
