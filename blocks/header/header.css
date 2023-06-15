@@ -1,27 +1,13 @@
 .header {
-  display: flex;
-  width: 1184px;
-  align-items: center;
-  justify-content: space-between;
-  margin-top: 28px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  min-width: 288px;
+  max-width: 1184px;
   margin: 28px auto 0 auto;
-}
-
-@media screen and (min-width: 768px) and (max-width: 1024px) {
-  .header {
-    width: 928px;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 768px) {
-  .header {
-    width: 720px;
-  }
 }
 
 @media screen and (max-width: 320px) {
   .header {
-    width: 288px;
-    margin-top: 16px;
+    margin: 16px auto 0 auto;
   }
 }
