@@ -9,7 +9,7 @@
   justify-self: center;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (min-width: 320px) {
   .cover__subtitle {
     width: 288px;
     font-size: 14px;
