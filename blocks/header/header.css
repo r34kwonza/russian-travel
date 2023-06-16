@@ -1,13 +1,28 @@
 .header {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  min-width: 288px;
+  display: flex;
+  justify-content: space-between;
+  width: calc(100% - 48px * 2);
   max-width: 1184px;
   margin: 28px auto 0 auto;
 }
 
+@media screen and (max-width: 1024px) {
+  .header {
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: calc(100% - 24px * 2);;
+    max-width: 720px;
+    margin: 16px auto 0 auto;
+  }
+}
+
 @media screen and (max-width: 320px) {
   .header {
-    margin: 16px auto 0 auto;
+    width: calc(100% - 16px * 2);;
+    max-width: 288px;
   }
 }
