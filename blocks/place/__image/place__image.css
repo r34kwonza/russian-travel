@@ -5,14 +5,14 @@
   grid-row: 2 / 2;
 }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
   .place__image {
     height: 440px;
     width: 440px;
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .place__image {
     height: 340px;
     width: 340px;
@@ -20,7 +20,7 @@
 }
 
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .place__image {
     grid-column: 1 / 1;
     grid-row: 3 / 4;

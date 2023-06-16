@@ -8,7 +8,7 @@
   justify-self: center;
 }
 
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 425px) {
   .cover__title {
     width: 288px;
     font-size: 32px;

@@ -2,26 +2,26 @@
   font-size: 10px;
   line-height: 1.4;
   text-transform: uppercase;
-  width: 984px;
+  max-width: 984px;
   margin: 8px auto 0 auto;
 }
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
   .lead__caption {
-    width: 928px;
+    max-width: 928px;
   }
 }
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .lead__caption {
-    width: calc(768px - 24px);
+    max-width: calc(768px - 24px);
     margin-left: 24px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .lead__caption {
-    width: calc(320px - 16px);
+    max-width: calc(320px - 16px);
     margin-left: 16px;
   }
 }

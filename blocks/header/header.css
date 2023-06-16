@@ -1,7 +1,7 @@
 .header { /* 1280+ = макет 1280 */
   display: flex;
   justify-content: space-between;
-  width: calc(100% - 48px * 2);
+  max-width: calc(100% - 48px * 2);
   max-width: 1184px;
   margin: 28px auto 0 auto;
 }
@@ -16,7 +16,7 @@
   .header {
     width: calc(100% - 24px * 2);;
     max-width: 720px;
-    margin: 16px auto 0 auto;
+    margin-top: 16px;
   }
 }
 
@@ -24,6 +24,6 @@
   .header {
     width: calc(100% - 16px * 2);;
     max-width: 288px;
-    margin: 16px auto 0 auto;
+    margin-top: 16px;
   }
 }
