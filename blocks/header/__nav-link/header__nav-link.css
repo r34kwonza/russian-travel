@@ -1,5 +1,12 @@
 .header__nav-link {
+  display: flex;
+  align-items: end;
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+
+.header__nav-link:first-child {
+  margin-right: 18px;
+  text-decoration: underline;
 }
