@@ -1,6 +1,4 @@
 .header__link-area {
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  align-self: center;
-  justify-self: self-end;
+  display: flex;
+  align-items: flex-end;
 }
