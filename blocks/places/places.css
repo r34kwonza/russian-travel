@@ -1,25 +1,25 @@
 .places {
-  max-width: 984px;
+  width: calc(100% - 155px * 2);
   margin: 91px auto 0 auto;
 }
 
 @media screen and (max-width: 1024px) {
   .places {
-    max-width: 928px;
+    width: calc(100% - 48px * 2);
     margin-top: 92px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .places {
-    max-width: 720px;
+    width: calc(100% - 24px * 2);
     margin-top: 88px;
   }
 }
 
 @media screen and (max-width: 425px) {
   .places {
-    max-width: 320px;
+    width: 100%;
     margin-top: 64px;
   }
 }

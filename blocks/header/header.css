@@ -1,21 +1,13 @@
 .header { /* 1280+ = макет 1280 */
   display: flex;
   justify-content: space-between;
-  max-width: calc(100% - 48px * 2);
-  max-width: 1184px;
+  width: calc(100% - 48px * 2);
   margin: 28px auto 0 auto;
-}
-
-@media screen and (max-width: 1024px) { /* макет 1024 */
-  .header {
-    max-width: 928px;
-  }
 }
 
 @media screen and (max-width: 768px) { /* макет 768 */
   .header {
-    width: calc(100% - 24px * 2);;
-    max-width: 720px;
+    width: calc(100% - 24px * 2);
     margin-top: 16px;
   }
 }
@@ -23,7 +15,6 @@
 @media screen and (max-width: 425px) { /* макет 320 */
   .header {
     width: calc(100% - 16px * 2);;
-    max-width: 288px;
     margin-top: 16px;
   }
 }

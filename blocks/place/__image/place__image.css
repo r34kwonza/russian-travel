@@ -1,5 +1,4 @@
 .place__image {
-  height: 460px;
   width: 460px;
   grid-column: 1 / 2;
   grid-row: 2 / 2;
@@ -7,25 +6,21 @@
 
 @media screen and (max-width: 1024px) {
   .place__image {
-    height: 440px;
     width: 440px;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place__image {
-    height: 340px;
     width: 340px;
   }
 }
-
 
 @media screen and (max-width: 425px) {
   .place__image {
     grid-column: 1 / 1;
     grid-row: 3 / 4;
-    height: 320px;
-    width: 320px;
+    width: 100%;
   }
 }
 
