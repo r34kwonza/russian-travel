@@ -4,7 +4,7 @@
   align-self: self-end;
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 632px) {
   .place__website {
     grid-column: 1 / 1;
     grid-row: 2 / 4;

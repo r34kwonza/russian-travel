@@ -17,7 +17,7 @@
   }
 }
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 632px) {
   .place__title {
     grid-column: 1 / 1;
     grid-row: 1 / 4;
