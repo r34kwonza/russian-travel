@@ -1,6 +1,6 @@
 @import url(../vendor/normalize.css);
+@import url(../vendor/fonts.css);
 
-@import url(../fonts/InterWeb/inter.css);
 @import url(../blocks/page/page.css);
 
 @import url(../blocks/cover/__overlay/cover__overlay.css);
