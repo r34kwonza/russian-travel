@@ -1,20 +1,19 @@
 .cover__overlay {
   display: flex;
-  min-height: 740px;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  min-height: 740px;
+  box-sizing: border-box;
+  background-color:rgba(42,44,47,0.3);
   text-decoration: none;
   color: #fff;
-  box-sizing: border-box;
-  background-image: url(../../../images/cover-trains.jpg);
-  background-position: center;
-  background-size: cover;
-  opacity: 0.7;
+  transition: 1s;
 }
 
 .cover__overlay:hover {
-  opacity: 0.2;
+  background-color:rgba(42,44,47,0.8);
 }
 
 
