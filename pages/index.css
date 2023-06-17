@@ -19,6 +19,7 @@
 @import url(../blocks/header/__link-area/header__link-area.css);
 @import url(../blocks/header/__logo/header__logo.css);
 @import url(../blocks/header/__nav-link/header__nav-link.css);
+@import url(../blocks/header/__nav-link/_selected/header__nav-link_selected.css);
 @import url(../blocks/header/header.css);
 
 @import url(../blocks/intro/__list/intro__list.css);
